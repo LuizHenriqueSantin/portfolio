@@ -410,3 +410,93 @@ footer {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+@media(max-width: 1280px){
+
+    ul{
+        width: 100vw;
+        justify-content: space-around;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .content-container{
+        flex-direction: column;
+    }
+
+    .profile{
+        width: 80%;
+        height: 45%;
+    }
+
+    .about-me{
+        width: 80%;
+        height: 45%;
+    }
+
+    .text{
+        font-size: 2.5vh;
+        -webkit-text-stroke-width: 0.07vh;
+    }
+
+    .projects-container{
+        height: 200vh;
+    }
+
+    .project1{
+        flex-direction: column;
+        height: 30%;
+    }
+
+    .description-project1{
+        font-size: 2.5vh;
+        height: 60%;
+        width: 100%;
+    }
+
+    .project2{
+        flex-direction: column-reverse;
+        height: 30%;
+    }
+
+    .description-project2{
+        font-size: 2.5vh;
+        height: 60%;
+        width: 100%;
+    }
+
+    .project3{
+        flex-direction: column;
+        height: 30%;
+    }
+
+    .description-project3{
+        font-size: 2.5vh;
+        height: 60%;
+        width: 100%;
+    }
+
+    .other-projects{
+        width: 77%;
+    }
+
+    footer{
+        flex-direction: column;
+        height: 40vh;
+        justify-content: space-evenly;
+    }
+
+    .wpp-container{
+        width: 77%;
+    }
+    
+    .linkedin-container{
+        width: 77%;
+    }
+
+    .email-container{
+        width: 77%;
+    }
+}
